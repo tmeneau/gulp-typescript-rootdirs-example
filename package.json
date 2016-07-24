@@ -1,0 +1,17 @@
+{
+  "name": "gulp-typescript-rootdirs-example",
+  "version": "1.0.0",
+  "description": "example to demonstrate typescript compiler ignoring rootDirs configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tmeneau@xetus.com",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^2.13.6",
+    "typescript": "^2.0.0"
+  }
+}

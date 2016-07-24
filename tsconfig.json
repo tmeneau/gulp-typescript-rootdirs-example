@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": true,
+    "noEmitOnError": true,
+    "rootDirs": [
+      "./src/app",
+      "./src/test"
+    ],
+    "outDir": "./build"
+  },
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}
