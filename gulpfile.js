@@ -13,7 +13,7 @@ var tsProject = gulpTypescript.createProject('./tsconfig.json', {
 
 gulp.task('tsc', ['clean'], function() {
   var result = tsProject.src()
-                        .pipe(gulpTypescript(tsProject));
+                        .pipe(tsProject());
 
   return result.js.pipe(gulp.dest('build'));
 });
